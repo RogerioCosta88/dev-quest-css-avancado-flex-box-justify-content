@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Quest: Justify Content</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Justify Content</h1>
+    <p>O <strong>justify-content</strong> nos ajuda a posicionar os elementos horizontalmente, tendo vários tipos de espaçamentos diferentes.</p>
+
+    <h2>Flex Start</h2>
+    <p>O <strong>flex-start</strong> é o <em>valor</em> padrão do <strong>justify-content</strong>. Ele posiciona os elementos na esquerda da tela.</p>
+    <div class="container-start">
+        <div class="flex-start">1</div>
+        <div class="flex-start">2</div>
+        <div class="flex-start">3</div>
+    </div>
+
+    <h2>Flex End</h2>
+    <p>Funciona de forma inversa ao <strong>flex-start</strong>. No <strong>flex-end</strong> os elementos são posicionados no fim da página.</p>
+    <div class="container-end">
+        <div class="flex-end">1</div>
+        <div class="flex-end">2</div>
+        <div class="flex-end">3</div>
+    </div>
+
+    <h2>Center</h2>
+    <p>No <strong>center</strong> os elementos são posicionados no centro do <em>container</em>.</p>
+    <div class="container-center">
+        <div class="center">1</div>
+        <div class="center">2</div>
+        <div class="center">3</div>
+    </div>
+
+    <h2>Space Around</h2>
+    <p>O <strong>space-around</strong> adiciona um espaço ao redor dos elementos, mas o espaço entre os elementos fica dobrado em relação a <em>borda</em>, porque, como cada elemento tem o mesmo espaço, o espaço entre os elementos é somado.</p>
+    <div class="container-around">
+        <div class="around">1</div>
+        <div class="around">2</div>
+        <div class="around">3</div>
+    </div>
+
+    <h2>Space Between</h2>
+    <p>Basicamente funciona da mesma forma que o <strong>space-around</strong>, mas no <strong>space-between</strong>, o espaço é adicionado somente entre os elementos, não sendo adicionado espaço entre o elemento e a <em>borda</em>.</p>
+    <div class="container-between">
+        <div class="between">1</div>
+        <div class="between">2</div>
+        <div class="between">3</div>
+    </div>
+
+    <h2>Space Evenly</h2>
+    <p>O <em>valor</em> <strong>space-evenly</strong> também adiciona um espaço entre os elementos e a borda, mas no <strong>space-evenly</strong> os espaços são adicionados por igual em todos os lado.</p>
+    <div class="container-evenly">
+        <div class="evenly">1</div>
+        <div class="evenly">2</div>
+        <div class="evenly">3</div>
+    </div>
+  </body>
+</html>
